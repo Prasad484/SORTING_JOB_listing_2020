@@ -1,0 +1,351 @@
+ <!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+
+  <link rel="stylesheet" href="style.css">
+
+  <title> Job Listings</title>
+  
+</head>
+
+<body>
+  <div class="Comp">
+    <div class="top">
+      <div class="back">
+        <img src="images/bg-header-desktop.svg" alt="">
+      </div>
+    </div>
+
+    <div class="Search">
+      <div class="searchBar"><input type="text" id="ipV"></div>
+      <button id="btn" onclick="trial()">search</button>
+    </div>
+
+    <div class="jobs">
+      <div class="wrappper flex ">
+        <div class="profile flex featured-border">
+          <div class="company-img"><img src="images/photosnap.svg" alt=""></div>
+          <div class="company-desk">
+            <div class="company-field">
+              <span class="company">Photosnap</span>
+              <span class="new">New!</span><span class="featured">Featured</span>
+            </div>
+            <div class="job-position">Senior Frontend Developer</div>
+            <div class="job-info flex">
+              <span class="posted info">1d ago</span>
+              <ul class="flex mg-l">
+                <li class="contract info">Full Time</li>
+                <li class="country info">USA Only</li>
+              </ul>
+            </div>
+
+            <h2 class="skills flex">
+              <span class="role filter" id="Pskill1">Frontend</span>
+              <span class="level filter" id="Pskill2">Senior</span>
+              <span class="lang filter ed" id="Pskill3">HTML</span>
+              <span class="lang filter" id="Pskill4">CSS</span>
+              <span class="lang filter" id="Pskill5">JavaScript</span>
+
+            </h2>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="wrappper flex " id="DISM">
+        <div class="profile flex featured-border">
+          <div class="company-img"><img src="images/manage.svg" alt=""></div>
+          <div class="company-desk">
+            <div class="company-field">
+              <span class="company">Manage</span>
+              <span class="new">New!</span><span class="featured">Featured</span>
+            </div>
+            <div class="job-position">FullStack Developer</div>
+            <div class="job-info flex">
+              <span class="posted info">1d ago</span>
+              <ul class="flex mg-l">
+                <li class="contract info">Full Time</li>
+                <li class="country info">Remote</li>
+              </ul>
+            </div>
+
+            <h2 class="skills flex">
+              <span class="role filter" id="Mskill1">FullStack</span>
+              <span class="level filter" id="Mskill2">Midweight</span>
+              <span class="lang filter ed" id="Mskill3">Python</span>
+              <span class="lang filter" id="Mskill4"> React</span>
+
+            </h2>
+          </div>
+        </div>
+      </div>
+
+      <div class="wrappper flex " id="DISA">
+        <div class="profile flex featured-border">
+          <div class="company-img"><img src="images/account.svg" alt=""></div>
+          <div class="company-desk">
+            <div class="company-field">
+              <span class="company">Account</span>
+              <span class="new">New!</span><span class="featured">Featured</span>
+            </div>
+            <div class="job-position">Junior Frontend Developer</div>
+            <div class="job-info flex">
+              <span class="posted info">2d ago</span>
+              <ul class="flex mg-l">
+                <li class="contract info">Part Time</li>
+                <li class="country info">USA Only</li>
+              </ul>
+            </div>
+
+            <h2 class="skills flex">
+              <span class="role filter"  id="Askill1">Frontend</span>
+              <span class="level filter"  id="Askill2">Junior</span>
+              <span class="lang filter ed"  id="Askill3">JavaScript</span>
+              <span class="lang filter"  id="Askill4">React</span>
+              <span class="lang filter"  id="Askill5">Sass</span>
+
+            </h2>
+          </div>
+        </div>
+      </div> 
+
+      <!-- Item Start --
+    MyHome
+    Junior Frontend Developer
+    5d ago
+    Contract
+    USA only
+    <!-- Role --
+    Frontend
+    <!-- Level --
+    Junior
+    <!-- Languages --
+    CSS
+    JavaScript
+    <!-- Item End -->
+
+
+      <div class="wrappper flex">
+        <div class="profile flex featured-border">
+          <div class="company-img"><img src="images/myhome.svg" alt=""></div>
+          <div class="company-desk">
+            <div class="company-field">
+              <span class="company"> MyHome</span>
+              <span class="new">New!</span><span class="featured">Featured</span>
+            </div>
+            <div class="job-position">Junior Frontend Developer</div>
+            <div class="job-info flex">
+              <span class="posted info">5d ago</span>
+              <ul class="flex mg-l">
+                <li class="contract info"> Contract</li>
+                <li class="country info">USA Only</li>
+              </ul>
+            </div>
+
+            <h2 class="skills flex">
+              <span class="role filter">Frontend</span>
+              <span class="level filter">Junior</span>
+              <span class="lang filter">CSS</span>
+              <span class="lang filter">JavaScript</span>
+
+            </h2>
+          </div>
+        </div>
+      </div>
+
+      <div class="wrappper flex">
+        <div class="profile flex featured-border">
+          <div class="company-img"><img src="images/loop-studios.svg" alt=""></div>
+          <div class="company-desk">
+            <div class="company-field">
+              <span class="company">Loop Studios</span>
+              <span class="new">New!</span><span class="featured">Featured</span>
+            </div>
+            <div class="job-position"> Software Engineer</div>
+            <div class="job-info flex">
+              <span class="posted info">1w ago</span>
+              <ul class="flex mg-l">
+                <li class="contract info">Full Time</li>
+                <li class="country info">Worldwide</li>
+              </ul>
+            </div>
+
+            <h2 class="skills flex">
+              <span class="role filter">Fullstack</span>
+              <span class="level filter">Midweight</span>
+              <span class="lang filter ed">JavaScript</span>
+              <span class="lang filter">Ruby</span>
+              <span class="lang filter">Sass</span>
+
+            </h2>
+          </div>
+        </div>
+      </div>
+
+      <div class="wrappper flex">
+        <div class="profile flex featured-border">
+          <div class="company-img"><img src="images/faceit.svg" alt=""></div>
+          <div class="company-desk">
+            <div class="company-field">
+              <span class="company">FaceIt</span>
+              <span class="new">New!</span><span class="featured">Featured</span>
+            </div>
+            <div class="job-position"> Junior Backend Developer</div>
+            <div class="job-info flex">
+              <span class="posted info">2w ago</span>
+              <ul class="flex mg-l">
+                <li class="contract info">Full Time</li>
+                <li class="country info">UK only</li>
+              </ul>
+            </div>
+
+            <h2 class="skills flex">
+              <span class="role filter">Backend</span>
+              <span class="level filter"> Junior</span>
+              <span class="lang filter ed">Ruby</span>
+              <span class="lang filter">RoR</span>
+            </h2>
+          </div>
+        </div>
+      </div>
+      
+      <div class="wrappper flex">
+        <div class="profile flex featured-border">
+          <div class="company-img"><img src="images/shortly.svg" alt=""></div>
+          <div class="company-desk">
+            <div class="company-field">
+              <span class="company">Shortly</span>
+              <span class="new">New!</span><span class="featured">Featured</span>
+            </div>
+            <div class="job-position"> Junior  Developer</div>
+            <div class="job-info flex">
+              <span class="posted info">2w ago</span>
+              <ul class="flex mg-l">
+                <li class="contract info">Full Time</li>
+                <li class="country info">UK Worldwide</li>
+              </ul>
+            </div>
+
+            <h2 class="skills flex">
+              <span class="role filter"> Frontend</span>
+              <span class="level filter"> Junior</span>
+              <span class="lang filter ed">HTML</span>
+              <span class="lang filter">JavaScript</span>
+              <span class="lang filter">Sass</span>
+            </h2>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="wrappper flex">
+        <div class="profile flex featured-border">
+          <div class="company-img"><img src="images/insure.svg" alt=""></div>
+          <div class="company-desk">
+            <div class="company-field">
+              <span class="company">Insure</span>
+              <span class="new">New!</span><span class="featured">Featured</span>
+            </div>
+            <div class="job-position"> Junior Frontend Developer</div>
+            <div class="job-info flex">
+              <span class="posted info">2w ago</span>
+              <ul class="flex mg-l">
+                <li class="contract info">Full Time</li>
+                <li class="country info">USA only</li>
+              </ul>
+            </div>
+
+            <h2 class="skills flex">
+              <span class="role filter"> Frontend</span>
+              <span class="level filter"> Junior</span>
+              <span class="lang filter ed">JavaScript</span>
+              <span class="lang filter">Vue</span>
+              <span class="lang filter">Sass</span>
+            </h2>
+          </div>
+        </div>
+      </div>
+
+      
+      
+      
+      
+      <div class="wrappper flex">
+        <div class="profile flex featured-border">
+          <div class="company-img"><img src="images/eyecam-co.svg" alt=""></div>
+          <div class="company-desk">
+            <div class="company-field">
+              <span class="company">Eyecam Co.</span>
+              <span class="new">New!</span><span class="featured">Featured</span>
+            </div>
+            <div class="job-position">  Full Stack Engineer</div>
+            <div class="job-info flex">
+              <span class="posted info">3w ago</span>
+              <ul class="flex mg-l">
+                <li class="contract info">Full Time</li>
+                <li class="country info"> Worldwide</li>
+              </ul>
+            </div>
+            
+            <h2 class="skills flex">
+              <span class="role filter"> Fullstack</span>
+              <span class="level filter"> Midweight</span>
+              <span class="lang filter ed">JavaScript</span>
+              <span class="lang filter">Python</span>
+              <span class="lang filter"> Django</span>
+            </h2>
+          </div>
+        </div>
+      </div>
+      
+      <div class="wrappper flex">
+        <div class="profile flex featured-border">
+          <div class="company-img"><img src="images/the-air-filter-company.svg" alt=""></div>
+          <div class="company-desk">
+            <div class="company-field">
+              <span class="company">The Air Filter Company</span>
+              <span class="new">New!</span><span class="featured">Featured</span>
+            </div>
+            <div class="job-position">Front-end Dev</div>
+            <div class="job-info flex">
+              <span class="posted info">1mo ago</span>
+              <ul class="flex mg-l">
+                <li class="contract info">Part Time</li>
+                <li class="country info"> Worldwide</li>
+              </ul>
+            </div>
+            
+            <h2 class="skills flex">
+              <span class="role filter">  Frontend</span>
+              <span class="level filter"> JavaScript</span>
+              <span class="lang filter ed">React</span>
+              <span class="lang filter">Sass</span>
+            </h2>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- <div class="repo">
+    Item Start 
+    Photosnap
+    New!
+    Featured
+    Senior Frontend Developer
+    1d ago
+    Full Time
+    USA only
+    <!-- Role 
+    Frontend
+    <!-- Level
+    Senior
+    <!-- Languages 
+    HTML
+    CSS
